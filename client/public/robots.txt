@@ -1,3 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
-User-agent: *
+# allow only one robot - Google
+User-agent: Google
 Disallow:
+
+User-agent: *
+Disallow: /
