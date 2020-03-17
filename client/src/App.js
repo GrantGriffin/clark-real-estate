@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Layout />
       <Switch>
-        <Route exact path='/' render={<Home />} />
-        <Route path='/' render={<AgentPage />} />
+        <Route exact path='/' render={Home} />
+        <Route path='/' render={AgentPage} />
       </Switch>
     </div>
   );
