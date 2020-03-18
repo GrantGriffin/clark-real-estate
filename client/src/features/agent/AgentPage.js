@@ -1,13 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import AddEdit from '../../common/add-edit/AddEdit'
 
 const AgentPage = () => {
+
+  // placeholder info until data is wired up
+  const property = {
+    title: 'dudehaus',
+    address: '123 dude st'
+}
+
     return(
       <div>
-      <br/><br/><br/><br/>
       <h1>Hello Agent Page</h1>
-      <br/>
       <Link to='/home'>Home Page</Link>
+      <AddEdit property={property} />
       </div>
     )
 }

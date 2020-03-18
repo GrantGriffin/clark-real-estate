@@ -12,10 +12,6 @@ function App() {
   return (
     <div>
       <Layout />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <Switch>
         <Route exact path='/'>
           {loggedIn ? <Redirect to='/agent-page' /> : <Redirect to='/home' />}
